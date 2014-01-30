@@ -33,3 +33,14 @@ Cria versão em PDF (RGB) do jornal baseado em arquivos PDF (CMYK) individuais.
 
 ```
 ---
+
+* **converter-videos.sh**
+
+Converte vídeos de formatos `.wmv`, `.mp4` ou `.avi` para `.flv` com qualidade de imagem e áudio adequadas para publicação.
+
+```
+
+./converter_videos
+
+```
+---
