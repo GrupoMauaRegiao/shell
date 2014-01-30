@@ -66,7 +66,7 @@ criarJornal() {
       -resize 1536x2067\! $i MAIOR-$i.jpg;
   done
 
-  find . -type f ! -name 'MAIOR*' -delete
+  find . -type f ! -name 'MAIOR*' -delete;
 
   convert -monitor *.jpg "jornal-maua-e-regiao-ed-$edicao.pdf";
 
