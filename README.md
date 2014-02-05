@@ -50,7 +50,7 @@ Converte vídeos de formatos `.wmv`, `.mp4` ou `.avi` para `.flv` com qualidade 
 
 ```
 
-./converter_videos
+./converter_videos.sh
 
 ```
 ---
