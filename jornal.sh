@@ -103,11 +103,16 @@ criar_jornal() {
   for i in $(ls *.jpg)
   do
     convert -monitor \
+      -verbose \
       -resize 1536x2067\! $i MAIOR-$i.jpg;
   done
 
   find . -type f ! -name 'MAIOR*' -delete;
-  convert -monitor *.jpg "jornal-maua-e-regiao-ed-$edicao.pdf";
+
+  convert -monitor \
+    -verbose \
+    *.jpg "jornal-maua-e-regiao-ed-$edicao.pdf";
+
   upload_issuu_jornal;
 }
 criar_jornal;
