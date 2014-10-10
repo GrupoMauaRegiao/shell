@@ -6,15 +6,8 @@ Cria versão em PDF (RGB) do jornal baseado em arquivos PDF (CMYK) individuais e
 
 Obs.: *A publicação não será publicada com uma **descrição**. Se desejar inserí-la, entre em sua conta no Issuu e edite a publicação manualmente.*
 
-
-[jornal.sh](https://raw.githubusercontent.com/GrupoMauaRegiao/shell/master/jornal.sh)
+## Uso
 
 ```
 ./jornal.sh numero_edicao
-```
-
-[config_jornal](https://raw.githubusercontent.com/GrupoMauaRegiao/shell/master/config_jornal)
-
-```
-api_token, api_secret
 ```
