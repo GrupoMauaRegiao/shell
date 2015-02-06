@@ -9,7 +9,7 @@ upload_issuu_revista() {
   nome_arquivo=`basename revista-maua-e-regiao-ed-$edicao.pdf`;
   caminho_completo="$dir/$nome_arquivo";
   title="Revista Mauá e Região #$edicao";
-  
+
   criar_hash_md5() {
     string="${api_sec}actionissuu.document.uploadapiKey${api_key}name${nome_arquivo}title${title}";
     md5_hash=`echo -n $string | md5sum | awk '{print $1}'`;
@@ -64,7 +64,7 @@ criar_revista() {
       -attenuate 40 \
       -antialias \
       -colorspace RGB \
-      -level 0%,100%,1.7 \
+      -level 0%,100%,2.0 \
       -crop -75-75 \
       -resize 1060x1500 $i \
       -bordercolor white \
